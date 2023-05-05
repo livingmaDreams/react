@@ -1,11 +1,12 @@
-import './ExpenseDetails.css';
+
+import Card from '../UI/card'
 
 function ExpenseDetails(props) {
     return (
-      <div class='expense-details'>
+      <Card className='expense-details'>
         <p>{props.amount}</p>
         <p>{props.location}</p>
-      </div>
+      </Card>
     );
   }
   

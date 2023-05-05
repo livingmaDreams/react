@@ -1,0 +1,21 @@
+.cardexpense-items{
+  width: 50%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  margin: auto;
+  margin-bottom: 10px;
+    border-color: white;
+    border-radius: 20px;
+}
+.cardexpense-details{
+  margin: 20 px;
+  padding: 20 px;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  height: 20%;
+}
