@@ -3,9 +3,11 @@ import './App.css';
 import ExpenseItem from "./ExpenseItem/ExpenseItem"
 
 function App() {
+  const LocationOfExpenditure = 'Delhi';
+
   return (
     <div className="App">
-      <ExpenseItem></ExpenseItem>
+      <ExpenseItem location={LocationOfExpenditure}></ExpenseItem>
     </div>
   );
 }
