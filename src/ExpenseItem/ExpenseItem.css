@@ -1,0 +1,13 @@
+
+.expense-items{
+    display: flex;
+    margin: 20 px;
+    padding: 20 px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
